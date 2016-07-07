@@ -754,6 +754,32 @@ pre code {
     width: 1170px;
   }
 }
+
+.home-section {
+    background-image: url('../img/logo.jpg');
+}
+
+
+section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: scroll;
+}
+
+
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
